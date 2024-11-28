@@ -1,8 +1,12 @@
 # React Project README
 
+##Introduction
+
+This project contains a set of book library details.
+
 ## Getting Started
 
-Follow the steps below to set up and run this React project on your local machine.
+Follow the steps below to set up and run We Are Books on your local machine.
 
 ### Prerequisites
 - Node.js (v14.x or later recommended)
@@ -11,6 +15,8 @@ Follow the steps below to set up and run this React project on your local machin
 ---
 
 ### 1. Clone This Repository
+Create a folder in your machine.
+
 To begin, clone this repository to your local machine using the following command:
 
 ```bash
@@ -63,3 +69,4 @@ src/constants/endpoints.js
 
 ---
 
+#Please consider that you need to go to the auth page using its url `http://localhost:3000/auth`.
