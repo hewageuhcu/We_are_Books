@@ -19,7 +19,7 @@ const Home = () => {
     const [error, setError] = useState(null);
   
     const fetchData = async () => {
-      const apiUrl = API_ENDPOINTS.GET_ALL_BOOKS
+      const apiUrl = API_ENDPOINTS.GET_ALL_BOOKS 
       try {
         const response = await fetch(apiUrl);
         if (!response.ok) {
