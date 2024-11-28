@@ -1,7 +1,7 @@
 import { jwtDecode } from "jwt-decode";
 
 export const extractIdFromToken = () => {
-  const token = localStorage.getItem("readerlyJWTstorageitem");
+  const token = localStorage.getItem("weAreBooksJWTstorageitem");
 
   if (!token) {
     return null;
@@ -18,11 +18,11 @@ export const extractIdFromToken = () => {
 };
 
 export const storeToken = (token) => {
-  localStorage.setItem("readerlyJWTstorageitem", token);
+  localStorage.setItem("weAreBooksJWTstorageitem", token);
 }
 
 export const extractNameFromToken=()=>{
-  const token = localStorage.getItem("readerlyJWTstorageitem");
+  const token = localStorage.getItem("weAreBooksJWTstorageitem");
 
   if (!token) {
     return null;
@@ -39,6 +39,6 @@ export const extractNameFromToken=()=>{
 }
 
 export const logingOut=()=>{
-  localStorage.removeItem("readerlyJWTstorageitem");
+  localStorage.removeItem("weAreBooksJWTstorageitem");
 }
 

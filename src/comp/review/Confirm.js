@@ -10,7 +10,7 @@ const Confirm = ({id,setDeleteConfirmDisplay}) => {
 
     const handleReviewDelete = async (e, id) => {
         const apiUrl = API_ENDPOINTS.POST_REVIEW+`/${id}`;
-        e.preventDefault();
+        e.preventDefault(); 
         try {
           const response = await fetch(apiUrl, {
             method: "DELETE", 
