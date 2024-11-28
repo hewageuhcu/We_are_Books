@@ -13,7 +13,7 @@ const ReviewForm = ({editMode,setDisplay,setEditMode,bookId,userId,rate,review,r
   const [responseMessage, setResponseMessage] = useState("");
 
 
-  const handleCancel = () => {
+  const handleCancel = () => { 
     setDisplay(false);
     setEditMode(false);
   }
