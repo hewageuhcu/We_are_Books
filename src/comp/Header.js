@@ -44,7 +44,7 @@ function Header() {
           }}
         >
         </div>
-        <Typography variant="h5" style={{paddingRight: '20px'}}>Readerly</Typography>
+        <Typography variant="h5" style={{paddingRight: '20px'}}>We Are Books👋🏼📖</Typography>
         </div>
 
         <div style={{marginRight:'20px',display:'flex',alignItems:'center',position:'relative'}}>
