@@ -38,7 +38,6 @@ function Header() {
           style={{
             width:'30px',
             height:'30px',
-            backgroundImage: `url(/ico.png)`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
           }}
