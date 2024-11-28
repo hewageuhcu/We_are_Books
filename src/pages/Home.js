@@ -39,11 +39,11 @@ const Home = () => {
     }, []);
 
 
-    if (loading) {
+    if (loading){
         return <div>Loading...</div>;
       }
     
-      if (error) {
+      if (error){
         return <div>Error: {error}</div>;
       }
     
