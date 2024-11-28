@@ -37,7 +37,7 @@ function Header() {
         <div 
           style={{
             width:'30px',
-            height:'30px',
+            height:'50px',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
           }}
