@@ -9,4 +9,4 @@ const API_ENDPOINTS = {
   SIGN: `${BASE_URL}/users/signup`,
 };
 
-export default API_ENDPOINTS;
+export default API_ENDPOINTS;    
